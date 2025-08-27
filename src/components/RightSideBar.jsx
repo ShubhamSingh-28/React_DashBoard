@@ -95,7 +95,7 @@ export default function RightSideBar() {
                   {item.icon}
                   <div className="flex flex-col ">
                     <span>{item.text}</span>
-                    <span className="text-gray-400 text-sm">{item.time}</span>
+                    <span className="text-gray-400 ">{item.time}</span>
                   </div>
                 </div>
               ))}
@@ -108,7 +108,7 @@ export default function RightSideBar() {
                   {item.icon}
                   <div className="flex flex-col ">
                     <span>{item.text}</span>
-                    <span className="text-gray-400 text-sm">{item.time}</span>
+                    <span className="text-gray-400 ">{item.time}</span>
                   </div>
                 </div>
               ))}
