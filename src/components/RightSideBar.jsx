@@ -102,7 +102,7 @@ export default function RightSideBar() {
       </div>
 
       <div>
-        <h3 className="mb-2">Activities</h3>
+        <h3 className="mb-3">Activities</h3>
               {Activities.map((item) => (
                 <div key={item.id} className="gap-3 flex mb-3">
                   {item.icon}
@@ -115,9 +115,9 @@ export default function RightSideBar() {
       </div>
 
       <div>
-        <h3 className="mb-2">Contacts</h3>
+        <h3 className="mb-3">Contacts</h3>
               {contacts.map((item) => (
-                <div key={item.id} className="gap-1 flex mb-3">
+                <div key={item.id} className="gap-3 flex mb-2">
                   {item.icon}
                     <span>{item.text}</span>
                 </div>
