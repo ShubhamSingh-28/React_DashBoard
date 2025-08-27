@@ -115,9 +115,9 @@ export default function RightSideBar() {
       </div>
 
       <div>
-        <h3 className="mb-3">Contacts</h3>
+        <h3 className="mb-2">Contacts</h3>
               {contacts.map((item) => (
-                <div key={item.id} className="gap-3 flex mb-4">
+                <div key={item.id} className="gap-2 flex mb-4">
                   {item.icon}
                     <span>{item.text}</span>
                 </div>
