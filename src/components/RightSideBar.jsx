@@ -87,7 +87,7 @@ export default function RightSideBar() {
 
   return (
     // hide on small and md screens, show on large screens and up
-    <aside className="hidden lg:block lg:w-72 font-semibold border-l-1 text-sm border-gray-300 pt-4 pl-5 space-y-4 overflow-y-auto">
+    <aside className="hidden lg:block lg:w-72 font-semibold border-l-1 text-xs border-gray-300 pt-4 pl-5 space-y-4 overflow-y-auto">
       <div>
         <h3 className="mb-3">Notifications</h3>
               {data.map((item) => (
