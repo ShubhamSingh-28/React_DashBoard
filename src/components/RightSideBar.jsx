@@ -91,7 +91,7 @@ export default function RightSideBar() {
       <div>
         <h3 className="mb-3">Notifications</h3>
               {data.map((item) => (
-                <div key={item.id} className="gap-3 flex mb-4">
+                <div key={item.id} className="gap-3 flex mb-3">
                   {item.icon}
                   <div className="flex flex-col ">
                     <span>{item.text}</span>
@@ -104,7 +104,7 @@ export default function RightSideBar() {
       <div>
         <h3 className="mb-2">Activities</h3>
               {Activities.map((item) => (
-                <div key={item.id} className="gap-3 flex mb-4">
+                <div key={item.id} className="gap-3 flex mb-3">
                   {item.icon}
                   <div className="flex flex-col ">
                     <span>{item.text}</span>
@@ -117,7 +117,7 @@ export default function RightSideBar() {
       <div>
         <h3 className="mb-2">Contacts</h3>
               {contacts.map((item) => (
-                <div key={item.id} className="gap-2 flex mb-4">
+                <div key={item.id} className="gap-1 flex mb-3">
                   {item.icon}
                     <span>{item.text}</span>
                 </div>

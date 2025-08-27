@@ -9,7 +9,7 @@ import { GrGroup } from "react-icons/gr";
 export default function LeftSideBar() {
   return (
     // hide the full sidebar on small screens, show from md and up
-    <aside className="hidden md:flex md:w-48 border-r-1 border-gray-300 p-4 flex-col text-sm">
+    <aside className="hidden md:flex md:w-48 border-r-1 border-gray-300 p-4 flex-col text-xs">
       
       <div className="flex items-center gap-1">
         <IoPersonCircleSharp className="w-6 h-6 mb-3" />
